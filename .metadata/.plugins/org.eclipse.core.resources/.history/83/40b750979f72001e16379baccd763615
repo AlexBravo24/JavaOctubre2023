@@ -1,0 +1,17 @@
+package com;
+
+//la herencia se realiza con la palabra reservada
+//extends despues del nombre de la clase
+
+public class Empleado extends Persona {
+	
+	//atributos propios de un empleado
+	
+	private String rfc;
+	private double salario;
+	private String cargo;
+	
+	
+	public Empleado() {}
+
+}

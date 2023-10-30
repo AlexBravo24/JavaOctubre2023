@@ -1,0 +1,16 @@
+package com;
+
+public class PersonajesTarea {
+	private String nombre;
+	private String clase;
+	private String Raza;
+	private int nivel;
+	private int hp;
+	private int stamina;
+	private int mana;
+	private int fuerza;
+	 
+	public Pds() {}
+	
+
+}

@@ -1,0 +1,17 @@
+package com;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		// en la poo solo existe una clase principal
+		//para ejecutar el proyecto o aplicacion
+		
+		//toda la logica y funciones quedan a cargo de
+		//los objetos que vayamos creando
+		
+		
+
+	}
+
+}

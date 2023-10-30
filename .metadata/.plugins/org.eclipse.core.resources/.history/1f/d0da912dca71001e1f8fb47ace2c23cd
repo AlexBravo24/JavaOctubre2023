@@ -1,0 +1,26 @@
+package com;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		// en la poo solo existe una clase principal
+		//para ejecutar el proyecto o aplicacion
+		
+		//toda la logica y funciones quedan a cargo de
+		//los objetos que vayamos creando
+		
+		//crear un objeto o variable de nuestra clase Pan
+		//con el constructor vacio. esto me va a permitir
+		//asignarle valor a sus atributos posteriormente
+		
+		Pan bolillo = new Pan();
+		
+		//crear un objeto de nuestra clase pan, pero utilizando
+		//el constructor con todos los parametros
+		
+		Pan cuernito =new Pan("cuernito", "harina, agua, mantequilla", 5, "Dorado", "Chocolate", "Suave", "chocolate", 100);
+		
+	}
+
+}

@@ -1,0 +1,82 @@
+package com;
+
+public class VideoJuego {
+	
+	private String juego;
+	private String cuenta;
+	private String contraseña;
+	private String personaje;
+	private String clasepersonaje;
+	private int atributospersonaje;
+	
+	public VideoJuego() {}
+
+	public VideoJuego(String juego, String cuenta, String contraseña, String personaje, String clasepersonaje,
+			int atributospersonaje) {
+		super();
+		this.juego = juego;
+		this.cuenta = cuenta;
+		this.contraseña = contraseña;
+		this.personaje = personaje;
+		this.clasepersonaje = clasepersonaje;
+		this.atributospersonaje = atributospersonaje;
+	}
+
+	public String getJuego() {
+		return juego;
+	}
+
+	public void setJuego(String juego) {
+		this.juego = juego;
+	}
+
+	public String getCuenta() {
+		return cuenta;
+	}
+
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+	public String getContraseña() {
+		return contraseña;
+	}
+
+	public void setContraseña(String contraseña) {
+		this.contraseña = contraseña;
+	}
+
+	public String getPersonaje() {
+		return personaje;
+	}
+
+	public void setPersonaje(String personaje) {
+		this.personaje = personaje;
+	}
+
+	public String getClasepersonaje() {
+		return clasepersonaje;
+	}
+
+	public void setClasepersonaje(String clasepersonaje) {
+		this.clasepersonaje = clasepersonaje;
+	}
+
+	public int getAtributospersonaje() {
+		return atributospersonaje;
+	}
+
+	public void setAtributospersonaje(int atributospersonaje) {
+		this.atributospersonaje = atributospersonaje;
+	}
+
+	@Override
+	public String toString() {
+		return "VideoJuego [juego=" + juego + ", cuenta=" + cuenta + ", contraseña=" + contraseña + ", personaje="
+				+ personaje + ", clasepersonaje=" + clasepersonaje + ", atributospersonaje=" + atributospersonaje + "]";
+	}
+
+	
+	
+
+}

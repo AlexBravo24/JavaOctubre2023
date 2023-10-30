@@ -1,0 +1,13 @@
+package com;
+
+public class Maps {
+
+	public static void main(String[] args) {
+
+		//la interfaz map asocia claves a valores.
+		//esta interfase no puede contener claves duplicadas
+		//pero si valores duplicados
+
+	}
+
+}

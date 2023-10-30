@@ -1,0 +1,43 @@
+package com;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.logica.Cajero;
+import com.modelo.Cuenta;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		//necesitamos crear un objeto cajero para poder realizar
+		//las operaciones
+		//primero necesitamos crear el hashmap para pasarselo como valor
+		//a cajero, para que acceda a la BD de las cuentas
+		
+		Map<Integer, Cuenta> cuentas=new HashMap<Integer, Cuenta>();
+		
+		//voy a guardar objetos cuenta en mi Hashmap
+		//existen dos formas en este ejemplo
+		//podemos crear primero la cuenta y despues guardarla en el hashmap
+		Cuenta marcos=new Cuenta(1001, "marcos", 1500, "debito", 500, 50000);
+		
+		//la guardo en el hashmap
+		cuentas.put(1001, marcos);
+		
+		//puedo guardar las cuentas creandolas directamente en el hashmap
+		cuentas.put(1002, new Cuenta(1002, "arasandi", 3000, "debito", 1000, 20000));
+		cuentas.put(1003, new Cuenta(1003, "rafael", 5000, "debito", 100, 10000));
+		cuentas.put(1004, new Cuenta(1004, "alexis", 1000, "debito", 500, 30000));
+		cuentas.put(1005, new Cuenta(1005, "elias", 30000, "debito", 4000, 20000));
+		
+		Cajero cajero1= new Cajero(cuentas, "polanco, cdmx", 116);
+		
+		System.out.println(cuentas.get(1001));
+		
+		//puedo guardar las cuentas creandolas directamente en el hashmap
+		
+
+	}
+
+}

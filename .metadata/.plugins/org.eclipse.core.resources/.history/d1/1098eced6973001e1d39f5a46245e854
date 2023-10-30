@@ -1,0 +1,6 @@
+package com;
+
+//interface termometro
+public interface ITermometro {
+
+}

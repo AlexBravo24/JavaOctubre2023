@@ -1,0 +1,16 @@
+package com;
+
+public class VideoJuego {
+	
+	private String juego;
+	private String cuenta;
+	private String contraseña;
+	private String personaje;
+	private String clasepersonaje;
+	private String atributospersonaje;
+	
+	public VideoJuego() {}
+
+	
+
+}

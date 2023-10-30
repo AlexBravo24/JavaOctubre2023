@@ -1,0 +1,15 @@
+package com;
+
+//interface termometro
+public interface ITermometro {
+
+	//las interfaces son un listado de metodos
+	//abstractos y propiedades constantes en caso de ser
+	//necesarias
+	
+	//declaro un metodo abstracto sin el modificados abstract
+	public void tomartemperatura();
+	
+	
+	
+}

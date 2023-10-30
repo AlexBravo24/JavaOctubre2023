@@ -1,0 +1,14 @@
+package com.modelo;
+
+public class Cuenta {
+	
+	//definir una clase o modelo para crear cuentas de banco
+	
+	private int numerocuenta;
+	private String nombre;
+	private double saldo;
+	private String tipodecuenta;
+	private double minimo;
+	private double maximo;
+
+}

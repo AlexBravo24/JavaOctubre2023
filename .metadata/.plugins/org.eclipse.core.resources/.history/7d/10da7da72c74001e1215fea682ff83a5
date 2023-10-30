@@ -1,0 +1,19 @@
+package com.servicio;
+
+import com.modelo.Cuenta;
+
+public interface IMetodos {
+
+	
+	//esta interface va a tener declaradas las operaciones
+	//que la clase cajero en este ejercicio
+	//va a encargarse de resolver y definir como se realizaran
+	
+	//metodo para retornar el valor de una cuenta
+	//y la buscamos por numero de cuenta
+	public Cuenta buscarcuenta(int numerocuenta);
+	
+	public Ticket retirar(int numerocuenta, double monto);
+	
+	
+}

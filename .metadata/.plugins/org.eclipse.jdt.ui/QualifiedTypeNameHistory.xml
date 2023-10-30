@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="com.Pan"/>
+<fullyQualifiedTypeName name="com.PersonajesTarea"/>
+<fullyQualifiedTypeName name="com.Armas"/>
+<fullyQualifiedTypeName name="com.Almacenamiento"/>
+<fullyQualifiedTypeName name="com.Ram"/>
+<fullyQualifiedTypeName name="com.Procesador"/>
+<fullyQualifiedTypeName name="com.Computadora"/>
+<fullyQualifiedTypeName name="com.Personaje"/>
+<fullyQualifiedTypeName name="com.Clase"/>
+<fullyQualifiedTypeName name="com.Atributos"/>
+<fullyQualifiedTypeName name="com.VideoJuego"/>
+<fullyQualifiedTypeName name="com.Empleado"/>
+<fullyQualifiedTypeName name="com.servicio.IMetodos"/>
+<fullyQualifiedTypeName name="com.logica.Cajero"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.modelo.Cuenta"/>
+<fullyQualifiedTypeName name="com.respuesta.Ticket"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.Persona"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+</qualifiedTypeNameHistroy>
