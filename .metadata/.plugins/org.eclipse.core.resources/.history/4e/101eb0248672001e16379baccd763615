@@ -1,0 +1,9 @@
+package com;
+
+public class Almacenamiento {
+	
+	private String marca;
+	private String tipo;
+	private double capacidad;
+
+}

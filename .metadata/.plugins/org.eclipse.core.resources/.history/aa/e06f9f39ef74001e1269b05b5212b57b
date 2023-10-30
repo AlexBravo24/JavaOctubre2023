@@ -1,0 +1,45 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		//api stream-funcionalidad a partir de java 8
+		//que nos permite manipular colecciones de datos
+		//la cual nos va a permitir filtrar la informacion
+		//ordenarla, etc.
+		//todo a traves de una fuente (.stream)
+		//y posteriormente funciones intermedias
+		
+		//vamos a crear una lista de elementos perosna
+		List<Persona> lista =new ArrayList<Persona>();
+		
+		//crear otra lista para agregar los elementos filtrados cuando
+		//utilicemos los metodos respectivos
+		
+		List<Persona> listafiltrada=new ArrayList<Persona>();
+		
+		//añadir elementos a nuestra lista original
+		
+		lista.add(new Persona("emmanuel", 22, "masculino"));
+		lista.add(new Persona("abraham", 25, "masculino"));
+		lista.add(new Persona("rafael", 28, "masculino"));
+		lista.add(new Persona("arasandi", 21, "femenino"));
+		lista.add(new Persona("alexis", 28, "masculino"));
+		lista.add(new Persona("elias", 26, "masculino"));
+		lista.add(new Persona("marcos", 22, "masculino"));
+		lista.add(new Persona("alex", 37, "masculino"));
+		
+		//para imprimir a cada elemento d ela lista
+		//solemos utilizar un ciclo for o for each
+		
+		for(Persona i: lista) {
+			System.out.println(i);
+		}
+		
+	}
+
+}

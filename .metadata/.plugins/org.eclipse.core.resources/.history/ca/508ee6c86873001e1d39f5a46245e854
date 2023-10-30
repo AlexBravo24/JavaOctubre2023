@@ -1,0 +1,7 @@
+package com;
+
+public class Termometro {
+	
+	public abstract void tomartemperatura();
+
+}

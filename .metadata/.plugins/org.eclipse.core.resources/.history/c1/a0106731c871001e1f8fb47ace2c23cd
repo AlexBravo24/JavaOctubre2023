@@ -1,0 +1,29 @@
+package com;
+
+public class Pan {
+
+	
+	//la clase nos va a servir como una plantilla
+	//o molde para crear objetos
+	//en este ejemplo, para crear diversos panes
+	
+	//tenemos que modelar a nuestro objeto
+	//iniciando por definir sus atributos
+	
+	//tamaño, color, relleno, textura, sabor, nombre
+	//ingredientes
+	
+	String nombre;
+	String ingredientes;
+	int tamaño;
+	String color;
+	String relleno;
+	String textura;
+	String sabor;
+	double peso;
+	
+	
+	
+	
+	
+}

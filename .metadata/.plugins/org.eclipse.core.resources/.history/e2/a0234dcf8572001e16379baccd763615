@@ -1,0 +1,17 @@
+package com;
+
+public class Computadora {
+	
+	private String marca;
+	private String tipo;
+	private double pulgadas;
+	private String sistemaOp;
+	
+	
+	//vamos a crear estos atributos como objetos
+	//que tambien van a formar parte de nuestra computadora
+	private Almacenamiento disco;
+	private Ram memoriaram;
+	private Procesador cpu;
+
+}

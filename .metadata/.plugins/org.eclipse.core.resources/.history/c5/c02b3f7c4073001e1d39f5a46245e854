@@ -1,0 +1,8 @@
+package com;
+
+public class Personaje extends VideoJuego{
+	
+	private String habilidad;
+	
+
+}

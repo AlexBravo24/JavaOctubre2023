@@ -1,0 +1,22 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		//api stream-funcionalidad a partir de java 8
+		//que nos permite manipular colecciones de datos
+		//la cual nos va a permitir filtrar la informacion
+		//ordenarla, etc.
+		//todo a traves de una fuente (.stream)
+		//y posteriormente funciones intermedias
+		
+		//vamos a crear una lista de elementos perosna
+		List<Persona> lista =new ArrayList<Persona>();
+
+	}
+
+}

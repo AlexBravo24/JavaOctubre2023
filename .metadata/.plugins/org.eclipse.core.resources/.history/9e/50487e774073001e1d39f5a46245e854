@@ -1,0 +1,10 @@
+package com;
+
+public class VideoJuego {
+	
+	private String nombre;
+	private String raza;
+	private String clase;
+	
+
+}

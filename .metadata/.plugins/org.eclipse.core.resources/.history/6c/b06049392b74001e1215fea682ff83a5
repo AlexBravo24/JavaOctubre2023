@@ -1,0 +1,17 @@
+package com.respuesta;
+
+import java.util.Date;
+
+public class Ticket {
+	
+	//es un objeto que va a responder cada vez que una operacion
+	//se realice con exito
+	
+	private int foliooperacion;
+	private Date fechahora;
+	private int numerocuenta;
+	private double saldo;
+	private String sucursal;
+	private int idcajero;
+
+}

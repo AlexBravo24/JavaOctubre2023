@@ -1,0 +1,54 @@
+package com;
+
+public class Cientifica extends Calculadora {
+	
+	private double sumar;
+	private double restar;
+	private double multiplicar;
+	private double dividir;
+		
+	public Cientifica() {}
+
+	public Cientifica(double sumar, double restar, double multiplicar, double dividir) {
+		super();
+		this.sumar = sumar;
+		this.restar = restar;
+		this.multiplicar = multiplicar;
+		this.dividir = dividir;
+	}
+
+	@Override
+	public void double sumar(double operando1, double operando2) {
+		double resultado=operando1+operando2;
+		System.out.println("suma "+resultado);
+		
+	}
+
+	@Override
+	public double restar(double operando1, double operando2) {
+		double resultado=operando1-operando2;
+		System.out.println("resta "+resultado);
+		
+	}
+
+	@Override
+	public double multiplicar(double operando1, double operando2) {
+		double resultado=operando1*operando2;
+		System.out.println("multiplica "+resultado);
+		return resultado;
+	}
+
+	@Override
+	public double dividir(double operando1, double operando2) {
+		if(operando2==0) {
+		double resultado=operando1/operando2;
+		System.out.println("dividir "+resultado);
+		return resultado;
+	}else {
+		System.out.println("todo numero divido entre 0 es 0");
+		return 0;
+	}
+	}
+	
+
+}
